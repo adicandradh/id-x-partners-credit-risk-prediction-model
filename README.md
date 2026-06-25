@@ -115,7 +115,7 @@ Analisis *feature importance* dilakukan untuk membandingkan faktor-faktor yang p
 | 2 | `mths_since_issue_d` | 112308 |
 | 3 | `annual_inc` | 38056 |
 | 4 | `installment_income_ratio` | 21042 |
-| 5 | `dti` | 18480.737125 |
+| 5 | `dti` | 18481 |
 | 6 | `mths_since_earliest_cr_line` | 13173 |
 | 7 | `loan_income_ratio` | 13118 |
 | 8 | `inq_last_6mths` | 11664 |
