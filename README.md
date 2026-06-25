@@ -111,16 +111,16 @@ Analisis *feature importance* dilakukan untuk membandingkan faktor-faktor yang p
 
 | Rank | Feature | Gain Importance |
 |------|---------|----------------:|
-| 1 | `int_rate` | 319007.710735 |
-| 2 | `mths_since_issue_d` | 112307.643209 |
-| 3 | `annual_inc` | 38056.104849 |
-| 4 | `installment_income_ratio` | 21042.401800 |
+| 1 | `int_rate` | 319008 |
+| 2 | `mths_since_issue_d` | 112308 |
+| 3 | `annual_inc` | 38056 |
+| 4 | `installment_income_ratio` | 21042 |
 | 5 | `dti` | 18480.737125 |
-| 6 | `mths_since_earliest_cr_line` | 13173.188377 |
-| 7 | `loan_income_ratio` | 13118.450941 |
-| 8 | `inq_last_6mths` | 11663.544519 |
-| 9 | `purpose` | 11588.223267 |
-| 10 | `sub_grade` | 10998.851402 |
+| 6 | `mths_since_earliest_cr_line` | 13173 |
+| 7 | `loan_income_ratio` | 13118 |
+| 8 | `inq_last_6mths` | 11664 |
+| 9 | `purpose` | 11588 |
+| 10 | `sub_grade` | 10999 |
 
 Hasil tersebut menunjukkan bahwa ketiga model menghasilkan pola yang relatif konsisten, di mana **tingkat suku bunga (`int_rate`)**, **tingkat risiko pinjaman (`sub_grade`)**, serta beberapa fitur hasil *feature engineering* seperti `loan_income_ratio` dan `installment_income_ratio` memberikan kontribusi yang signifikan dalam membedakan peminjam dengan risiko gagal bayar tinggi maupun rendah. Selain itu, fitur-fitur seperti **annual income**, **debt-to-income ratio (DTI)**, dan **riwayat kredit** juga menjadi faktor penting dalam proses prediksi pada beberapa model.
 
