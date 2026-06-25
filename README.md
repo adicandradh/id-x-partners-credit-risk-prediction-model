@@ -129,4 +129,4 @@ Hasil tersebut menunjukkan bahwa ketiga model menghasilkan pola yang relatif kon
 - Menggunakan probabilitas prediksi sebagai indikator tambahan dalam mengevaluasi pengajuan pinjaman yang memiliki risiko gagal bayar tinggi.
 - Memprioritaskan kualitas dan validasi data pada fitur-fitur yang memiliki pengaruh besar terhadap hasil prediksi, terutama **interest rate**, **sub grade**, **annual income**, serta fitur-fitur hasil *feature engineering*.
 - Melakukan *retraining* model secara berkala menggunakan data terbaru agar performa prediksi tetap optimal.
-- Menyesuaikan strategi pemberian pinjaman, seperti limit kredit, tenor, atau kebijakan mitigasi risiko lainnya, berdasarkan tingkat risiko yang diprediksi model.****
+- Menyesuaikan strategi pemberian pinjaman, seperti limit kredit, tenor, atau kebijakan mitigasi risiko lainnya, berdasarkan tingkat risiko yang diprediksi model.
